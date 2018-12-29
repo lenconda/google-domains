@@ -4,7 +4,7 @@
   "description": "Get google domains randomly to prevent being block",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha test/**/**/*.test"
+    "test": "nyc mocha test/**/**/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,25 @@
   "bugs": {
     "url": "https://github.com/lenconda/google-domains/issues"
   },
-  "homepage": "https://github.com/lenconda/google-domains#readme"
+  "homepage": "https://github.com/lenconda/google-domains#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "superagent": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.1.1",
+    "casual": "1.5.11",
+    "chai": "3.5.0",
+    "chai-as-promised": "6.0.0",
+    "chai-spies": "0.7.1",
+    "eslint": "3.19.0",
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "6.10.0",
+    "mocha": "3.2.0",
+    "nyc": "10.2.0",
+    "proxy-supervisor": "^0.9.4",
+    "supertest": "3.0.0"
+  }
 }
