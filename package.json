@@ -1,0 +1,24 @@
+{
+  "name": "google-domains",
+  "version": "0.0.1",
+  "description": "Get google domains randomly to prevent being block",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha test/**/**/*.test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lenconda/google-domains.git"
+  },
+  "keywords": [
+    "google",
+    "domains",
+    "random"
+  ],
+  "author": "lenconda <i@lenconda.top>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lenconda/google-domains/issues"
+  },
+  "homepage": "https://github.com/lenconda/google-domains#readme"
+}
