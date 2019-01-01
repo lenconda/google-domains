@@ -1,6 +1,6 @@
 {
   "name": "google-domains",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Get google domains randomly to prevent being block",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/lenconda/google-domains.git"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
   },
   "keywords": [
     "google",
